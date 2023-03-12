@@ -1,5 +1,6 @@
 package persistencia;
 
+import java.util.ArrayList;
 import java.util.List;
 import logica.Persona;
 import persistencia.exceptions.NonexistentEntityException;
@@ -20,6 +21,23 @@ public class ControladoraPersistencia {
         persJPA.destroy(pers.getId());
     }
     
+    public void editarPersona (Persona pers) throws Exception {
+        persJPA.edit(pers);
+    }
+    
+    /**
+     *
+     * @param id
+     * @return
+     */
+    public Persona encontrarPersona(int id) {
+        return (persJPA.findPersona(id));
+    }
+    
+    /**
+     *
+     * @return
+     */
     public List<Persona> traerPersonas () {
         
         return persJPA.findPersonaEntities();

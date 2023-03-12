@@ -12,12 +12,13 @@
 	<link rel="stylesheet" href="main.css">
 	<title>CRUD</title>
 </head>
-<body>
+<body style="text-align: center;">
+    <main style="display: inline-block; text-align: left" >
 	<h1>Datos</h1>
 	<form action="SvPersona" method="POST">
-		<p><label for="">Nombre:</label><input type="text" name="nombre"></p>
-		<p><label for="">Apellido:</label><input type="text" name="apellido"></p>
-		<p><label for="">Telefono:</label><input type="text" name="telefono"></p>
+		<p><label>Nombre:</label><input type="text" name="nombre"></p>
+		<p><label>Apellido:</label><input type="text" name="apellido"></p>
+		<p><label>Telefono:</label><input type="text" name="telefono"></p>
 		<button type="submit">Subir</button>
 	</form>
 
@@ -29,12 +30,23 @@
 
 	<h1>Eliminar Personas</h1>
 	<p>Ingrese el nombre de la persona a eliminar</p>
-	<form action="" method="">
-		<p><label for="">nombre:</label><input type="text" name="dni_delete"></p>
+	<form action="SvDeletePersona" method="POST">
+		<p><label>id:</label><input type="text" name="id_delete"></p>
 		<button type="submit">Eliminar</button>
 	</form>
+        
+               <h1>Editar X Persona</h1>
+               <form action="SvEditPersona" method="POST">
+		<p><label>ID:</label><input type="text" name="id_edit"></p>
+		<p><label>Full Name:</label><input type="text" name="nombre_completo"></p>
+		<p><label>Telefono:</label><input type="text" name="cellphone_edit"></p>
+		<button type="submit">Subir</button>
+	</form>
+        
+        </main>
 
 	<!--Javascript importing of the bootstrap framework -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+        
 </body>
 </html>

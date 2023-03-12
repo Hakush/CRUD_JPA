@@ -1,9 +1,12 @@
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
   /*display: flex;*/
+  display: inline-block; 
+  text-align: left;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;

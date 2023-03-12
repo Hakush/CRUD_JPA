@@ -5,11 +5,13 @@
         <group>
             <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/persistencia/PersonaJpaController.java</file>
             <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/servlets/SvPersona.java</file>
+            <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/web/displayPersonas.jsp</file>
             <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/persistencia/ControladoraPersistencia.java</file>
             <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/logica/Controladora.java</file>
+            <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/servlets/SvEditPersona.java</file>
             <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/logica/Persona.java</file>
+            <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/servlets/SvDeletePersona.java</file>
             <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/web/index.jsp</file>
-            <file>file:/D:/Facu/Estudio/Argentina%20Programa/Modulo%207/portfolio_JSP_Test/src/java/logica/Experiencia_Laboral.java</file>
         </group>
     </open-files>
 </project-private>
